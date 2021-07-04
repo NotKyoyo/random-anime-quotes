@@ -1,0 +1,32 @@
+{
+  "name": "anime-quotes",
+  "version": "1.0.0",
+  "description": "Generate random anime quotes.",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "node __tests__/getQuote.js"
+  },
+  "api": "https://airi.kyoyo.me/api",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/notkyoyo/anime-quotes.git"
+  },
+  "keywords": [
+    "anime",
+    "generator",
+    "quotes",
+    "discord",
+    "bot"
+  ],
+  "author": "Kyoyo",
+  "license": "AGPLv3",
+  "bugs": {
+    "url": "https://github.com/notkyoyo/anime-quotes/issues"
+  },
+  "homepage": "https://github.com/notkyoyo/anime-quotes#readme",
+  "dependencies": {
+    "eventemitter3": "^4.0.7",
+    "phin": "^3.6.0"
+  }
+}

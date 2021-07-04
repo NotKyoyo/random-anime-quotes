@@ -1,0 +1,7 @@
+.vscode/
+node_modules/
+__tests__/
+.deepsource.toml
+.github/
+package-lock.json
+index.d.js
