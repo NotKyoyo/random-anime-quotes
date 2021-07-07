@@ -2,34 +2,38 @@
 <center><strong>Powered by <a href="https://airi.kyoyo.me" target="_blank">Airi</a></strong></center>
 <br>
 
+## Access
+
+First you'll need a API token which you can get by reading documentation. _[Click here](https://airi.kyoyo.me)_
+
 ## Installation:
 
 ### NPM
 
 ```bash
-$ npm install anime-quotes
+$ npm install ani-quote
 ```
 
 ### YARN
 
 ```bash
-$ yarn add anime-quotes
+$ yarn add ani-quote
 ```
 
 ## Usage:
 
 ```javascript
-const AnimeQuote =require("anime-quotes");
-const api = new AnimeQuote("YOUR TOKEN");
+const AnimeQuote =require("ani-quote");
+const api = new AnimeQuote("YOUR TOKEN"); // The Airi API Token
 
 api.getQuote().then((res) => console.log(res));
 
 // @return with this:
 {
-  id: 3747,
+  _id: 3747,
   quote: "I don't know everything. I just know what I know.",
   anime: 'Nisemonogatari',
-  name: 'Tsubasa Hanekawa'
+  said: 'Tsubasa Hanekawa'
 }
 ```
 
