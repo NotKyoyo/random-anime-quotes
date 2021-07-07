@@ -1,6 +1,6 @@
 {
-  "name": "anime-quotes",
-  "version": "1.0.0",
+  "name": "ani-quote",
+  "version": "1.0.1",
   "description": "Generate random anime quotes.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -10,21 +10,27 @@
   "api": "https://airi.kyoyo.me/api",
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/notkyoyo/anime-quotes.git"
+    "url": "git+ssh://git@github.com/notkyoyo/ani-quote.git"
   },
+  "funding": "https://ko-fi.com/kyoyo",
   "keywords": [
     "anime",
     "generator",
+    "anime-quotes",
+    "anime-quote",
     "quotes",
     "discord",
-    "bot"
+    "bot",
+    "ani-quotes",
+    "quotes-api",
+    "anime-api"
   ],
   "author": "Kyoyo",
   "license": "AGPLv3",
   "bugs": {
-    "url": "https://github.com/notkyoyo/anime-quotes/issues"
+    "url": "https://github.com/notkyoyo/ani-quote/issues"
   },
-  "homepage": "https://github.com/notkyoyo/anime-quotes#readme",
+  "homepage": "https://github.com/notkyoyo/ani-quote#readme",
   "dependencies": {
     "eventemitter3": "^4.0.7",
     "phin": "^3.6.0"

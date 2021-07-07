@@ -2,7 +2,7 @@ interface AnimeQuote {
   _id: number;
   quote: string;
   anime: string;
-  name: string;
+  said: string;
 }
 
 export function getFact(): Promise<AnimeQuote>;
