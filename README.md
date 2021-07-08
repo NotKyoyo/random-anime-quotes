@@ -4,7 +4,8 @@
 
 ## Access
 
-First you'll need a API token which you can get by reading documentation. _[Click here](https://airi.kyoyo.me)_
+First you'll need a API token which you can get by reading documentation.
+_[Click here](https://airi.kyoyo.me)_
 
 ## Installation:
 
