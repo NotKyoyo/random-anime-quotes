@@ -1,4 +1,4 @@
-<h3 align="center"><strong>Generate random anime facts with a huge database.</strong></h3>
+<h3 align="center"><strong>Generate random anime quotes from a huge database</strong></h3>
 <center><strong>Powered by <a href="https://airi.kyoyo.me" target="_blank">Airi</a></strong></center>
 <br>
 
