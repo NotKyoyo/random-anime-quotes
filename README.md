@@ -11,19 +11,19 @@ First you'll need a API token which you can get by reading documentation. _[Clic
 ### NPM
 
 ```bash
-$ npm install ani-quote
+$ npm install random-anime-quotes
 ```
 
 ### YARN
 
 ```bash
-$ yarn add ani-quote
+$ yarn add random-anime-quotes
 ```
 
 ## Usage:
 
 ```javascript
-const AnimeQuote =require("ani-quote");
+const AnimeQuote =require("random-anime-quotes");
 const api = new AnimeQuote("YOUR TOKEN"); // The Airi API Token
 
 api.getQuote().then((res) => console.log(res));
