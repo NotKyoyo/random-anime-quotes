@@ -1,6 +1,6 @@
 {
   "name": "random-anime-quotes",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Generate random anime quotes.",
   "main": "index.js",
   "types": "index.d.ts",
@@ -25,7 +25,7 @@
     "quotes-api",
     "anime-api"
   ],
-  "author": "Kyoyo",
+  "author": "aetrnyx",
   "license": "AGPLv3",
   "bugs": {
     "url": "https://github.com/notkyoyo/random-anime-quotes/issues"
