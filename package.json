@@ -1,18 +1,18 @@
 {
   "name": "random-anime-quotes",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Generate random anime quotes.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
     "test": "node __tests__/getQuote.js"
   },
-  "api": "https://airi.kyoyo.me/api",
+  "api": "https://animu.ml/api",
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/notkyoyo/random-anime-quotes.git"
   },
-  "funding": "https://ko-fi.com/kyoyo",
+  "funding": "https://ko-fi.com/Aeryk",
   "keywords": [
     "anime",
     "generator",
@@ -25,7 +25,7 @@
     "quotes-api",
     "anime-api"
   ],
-  "author": "aetrnyx",
+  "author": "aeryk",
   "license": "AGPLv3",
   "bugs": {
     "url": "https://github.com/notkyoyo/random-anime-quotes/issues"
