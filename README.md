@@ -1,10 +1,10 @@
 <h3 align="center"><strong>Generate random anime quotes from a huge database</strong></h3>
-<center><strong>Powered by <a href="https://airi.kyoyo.me" target="_blank">Airi</a></strong></center>
+<center><strong>Powered by <a href="https://animu.ml" target="_blank">Animu</a></strong></center>
 <br>
 
 ## Access
 
-First you'll need a API token which you can get by reading documentation. _[Click here](https://airi.kyoyo.me)_
+First you'll need a API token which you can get by reading documentation. _[Click here](https://animu.ml)_
 
 ## Installation:
 
@@ -24,7 +24,7 @@ $ yarn add random-anime-quotes
 
 ```javascript
 const AnimeQuote =require("random-anime-quotes");
-const api = new AnimeQuote("YOUR TOKEN"); // The Airi API Token
+const api = new AnimeQuote("YOUR TOKEN"); // The Animu API Token
 
 api.getQuote().then((res) => console.log(res));
 
