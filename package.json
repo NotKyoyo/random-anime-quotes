@@ -1,11 +1,12 @@
 {
   "name": "random-anime-quotes",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Generate random anime quotes.",
   "main": "index.js",
   "types": "index.d.ts",
   "scripts": {
-    "test": "node __tests__/getQuote.js"
+    "test": "node __tests__/getQuote.js",
+    "lint": "eslint index.js --fix"
   },
   "api": "https://animu.ml/api",
   "repository": {
@@ -34,5 +35,8 @@
   "dependencies": {
     "eventemitter3": "^4.0.7",
     "phin": "^3.6.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.24.0"
   }
 }

@@ -33,8 +33,14 @@ api.getQuote().then((res) => console.log(res));
   _id: 3747,
   quote: "I don't know everything. I just know what I know.",
   anime: 'Nisemonogatari',
-  said: 'Tsubasa Hanekawa'
+  name: 'Tsubasa Hanekawa'
 }
+```
+
+### Linter
+
+```bash
+$ npm run lint
 ```
 
 ## Functions
