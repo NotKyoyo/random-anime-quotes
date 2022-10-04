@@ -32,19 +32,16 @@ class AnimeQuote extends EventEmitter {
                 statusCode: res.statusCode,
                 error: "Invalid token",
               };
-              break;
             case 404:
               return {
                 statusCode: res.statusCode,
                 error: "Could not find any fact",
               };
-              break;
             case 502:
               return {
                 statusCode: res.statusCode,
                 error: "Server down",
               };
-              break;
             default:
               return {
                 statusCode: res.statusCode,

@@ -37,6 +37,12 @@ api.getQuote().then((res) => console.log(res));
 }
 ```
 
+### Linter
+
+```bash
+$ npm run lint
+```
+
 ## Functions
 
 | **Functions** | **Description**               |
